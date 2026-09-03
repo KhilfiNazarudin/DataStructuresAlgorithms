@@ -1,0 +1,72 @@
+# PostCompile
+.vs
+x64
+Release
+Debug
+build
+test-submissions
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug information files
+*.dwo
+
+# other files
+*.zip
+
+# libraries
+lib
+
+local.properties
+.idea
+*.properties
+
+GitHubDeployments
+learn-github-workflow
+android-studio/Quiz-2-3DFan
+android/.gradle
+build_desktop
+web
+android/.idea
+android/.cxx
+Quizzes
+android-studio/*/*/android/.gradle
+android-studio/*/*/android/.idea
+android-studio/*/*/android/.cxx
