@@ -12,18 +12,21 @@ void recursiveInsertionSort(std::vector<int> &a, std::size_t n)
   if (n < 2)
     return;
 
+  if (n > a.size())
+    return;
+
   // Recursive step: sort the first n - 1 keys.
   // INSERT YOUR CODE HERE.
   recursiveInsertionSort(a, n - 1);
 
-  std::size_t h = n - 1;
+  std::size_t insert_pos = n - 1;
   const int active_key = a[n - 1];
-  while (h > 0 && a[h - 1] > active_key)
+  while (insert_pos > 0 && a[insert_pos - 1] > active_key)
   {
-    a[h] = a[h - 1];
-    --h;
+    a[insert_pos] = a[insert_pos - 1];
+    --insert_pos;
   }
-  a[h] = active_key;
+  a[insert_pos] = active_key;
   // Insertion step: insert the final key into the sorted prefix.
   // INSERT YOUR CODE HERE.
 }

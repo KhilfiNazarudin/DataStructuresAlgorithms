@@ -70,3 +70,6 @@ Quizzes
 android-studio/*/*/android/.gradle
 android-studio/*/*/android/.idea
 android-studio/*/*/android/.cxx
+
+*.pdf
+
